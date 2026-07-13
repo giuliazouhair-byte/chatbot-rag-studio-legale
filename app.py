@@ -27,6 +27,10 @@ except Exception as e:
 
 st.success(f"Indice pronto: {len(index)} passaggi indicizzati.")
 
+if st.button("🗑️ Nuova conversazione"):
+    st.session_state.messages = []
+    st.rerun()
+
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
