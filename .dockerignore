@@ -1,0 +1,18 @@
+# Non includere mai la chiave API / segreti nell'immagine
+.env
+
+# File di versionamento e IDE
+.git
+.gitignore
+.idea
+.vscode
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# File di sistema
+.DS_Store
+
+# Documentazione (non serve dentro l'immagine)
+README.md

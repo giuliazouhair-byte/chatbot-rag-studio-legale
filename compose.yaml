@@ -1,0 +1,9 @@
+services:
+  chatbot-rag:
+    build: .
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env   # qui dentro (NON committato) c'è GEMINI_API_KEY=la_tua_chiave
+    volumes:
+      - ./documenti:/app/documenti   # comodo in sviluppo per aggiornare i documenti senza rebuild

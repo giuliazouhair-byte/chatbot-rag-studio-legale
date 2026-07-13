@@ -1,0 +1,18 @@
+# Chiave API e segreti: MAI versionare questo file
+.env
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambienti virtuali
+venv/
+.venv/
+
+# File di sistema
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
